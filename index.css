@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 3px;
+    line-height: 18px;
+    color: #0f141e;
+    background: rgb(216, 216, 216);
+}
+
+.card{
+    /* border: 2px solid black; */
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+.header img{
+    border-radius: 15%;
+    width: 150px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: 10px 30px 10px 10px;
+}
+
+ .header{
+    background: rgb(168, 220, 255);
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    display: flex;
+    padding: 5px;
+}
+
+.header p{
+   padding: 0;
+   margin: 0;
+}
+
+.hobbi{
+    background: rgb(168, 220, 255);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.hobbi ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hobbi ul li{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.hobbi ul li:hover{
+    background: #538fff;
+}
+
+.esperienza{
+    background: rgb(168, 220, 255);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.esperienza table{
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.esperienza table th{
+    background: #fe90a6;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.esperienza table td{
+    padding: 10px;
+    border: 1px solid #2d2c08;
+    background: #ffabcb;
+}
+
+.esperienza table td:hover{
+    background: #cdc820;
+}
+
+.contact{
+    background: #ddd;
+}
+
+.btn{
+    background: #0f141e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    transition: all .2s;
+}
+
+.btn:hover{
+    color: orange;
+    font-size: 17px;
+}
+
+.btn:active{
+    color: rgb(0, 132, 255);
+}
+
+.btn:visited{
+    color: #5d00ff;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ff2929;
+    transition: all .2s;
+}
+
+a:hover{
+    color: orange;
+    font-size: 18px;
+}
+a:visited{
+    color: #5d00ff;
+}
+
+a:active{
+    color: aqua;
+}
+
+.form h3{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #65686e;
+
+}
+.form-row{
+    display: flex;
+}
+
+.form-row .form-group{
+    /* margin-bottom: 10px; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50%-20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-row .form-group{
+    display: inline-block;
+
+}
+.footer{
+    text-align: center;
+}
+
+
+.form-group input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 580px ){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+        font-size: 13px;
+    }
+    .esperienza h2{
+        text-align: center;}
+        .hobbi{
+            text-align: center;
+        }
+}
+
+@media (max-width: 580px){
+    .form-row{
+        display: block;
+    }
+   
+}
+
+
+@media (max-width: 320px){
+    .esperienza table{
+        font-size: 8px;
+    }
+
+    .esperienza table td{
+        padding: 2px;
+    }
+
+    .esperienza table th{
+        padding: 2px;
+    }
+    .esperienza h2{
+        font-size: 12px;
+    }
+
+    .hobbi{
+        font-size: 10px;
+    }
+    .header{
+        font-size: 8px;
+    }
+    .header img{
+        width: 100px;
+    }
+    .footer{
+        font-size: 8px;
+    }
+
+}

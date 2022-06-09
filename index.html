@@ -7,23 +7,32 @@
     <meta name="keywords" content="Andrii Boiko">
     <meta name="description" content="Биография">
     <title>Rezume</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  
+  <div class="container">
+    
+    <div class="card header">
+        <img src="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg" alt="Здесь фотография Андрея" width="400" class="box">
+        <div class="box">
+    <h1 class=>Andrii Boiko</h1> 
    
-    <img src="https://avatarko.ru/img/kartinka/1/Crazy_Frog.jpg" alt="Здесь фотография Андрея" width="400">
-   
-    <h1>Andrii Boiko</h1> 
-   
-    <p>Привет всем <strong>меня зовут Андрей</strong>, мне 21 год, я <em>живу и работаю в Милане...</em></p>
-   <p>Люблю фотографировать и путишествовать</p>
+    <p class=>Привет всем <strong>меня зовут Андрей</strong>, мне 21 год, я <em>живу и работаю в Милане...</em></p>
+   <p class=>Люблю фотографировать и путишествовать.</p>
+</div>
+</div>
 
-   <h2>Мои хобби</h2>
+<div class="card hobbi">   
+<h2>Мои хобби</h2>
    <ul>
        <li>Фотография</li>
        <li>Путишествия</li>
        <li>Програмирование</li>
    </ul>
+</div>
 
+<div class="card esperienza">
    <h2>Esperienza lavorativa</h2>
     <table>
         <thead>
@@ -50,36 +59,48 @@
         </tr>
         </tbody>
     </table>
+</div>
 
-    <h3>Связаться со мной</h3>
+<div>    
 
-    <form>
 
-        <div>
+    <form action="/" class="form">
+        <h3>Связаться со мной</h3>
+
+        <div class="form-row">
+
+        <div class="form-group">
             <label for="text">Your name:</label>
             <input type="text" id="text" placeholder="Input your name">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="email">Your email:</label>
             <input type="email" id="email" placeholder="Input email">
         </div>
 
-        <div>
+    </div>
+
+        <div class="form-group">
             <label for="message">Message</label>
             <br>
             <textarea id="message" cols="20" rows="10" placeholder="Input message..."></textarea>
         </div>
-        <button type="submit">Send form!</button>
+        <button class="btn" type="submit">Send form!</button>
     </form>
+</div>
 
    <hr size="2" color="black">
 
+   <div class="footer">
+   
    <h3>Список соц сетей</h3>
 
    <p><a href="https://www.youtube.com/channel/UCrtWzVQ6C6Udm7oZisXzMJA" target="_blank">YouTube</a> |
    <a href="https://www.instagram.com/andriy_boyka/" target="_blank">Instagram</a>
   </p>
+</div>
+</div>
 
 </body>
 </html>
